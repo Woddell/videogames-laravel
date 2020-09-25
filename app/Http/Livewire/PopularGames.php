@@ -24,7 +24,7 @@ class PopularGames extends Component
                     ->withOptions(
                         [
                             'body' => "
-                        fields name, cover.url, first_release_date, popularity, platforms.abbreviation, rating;
+                        fields name, slug, cover.url, first_release_date, popularity, platforms.abbreviation, rating;
                         where platforms = (48,49,130,6)
                         & (
                             first_release_date >= {$before}
