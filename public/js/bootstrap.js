@@ -20299,10 +20299,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
+/***/ "./resources/js/bootstrap.js":
+/*!***********************************!*\
+  !*** ./resources/js/bootstrap.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20316,6 +20316,7 @@ window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 window.ProgressBar = __webpack_require__(/*! progressbar.js */ "./node_modules/progressbar.js/src/main.js");
+console.log(window.ProgressBar);
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting
@@ -20333,13 +20334,13 @@ window.ProgressBar = __webpack_require__(/*! progressbar.js */ "./node_modules/p
 /***/ }),
 
 /***/ 0:
-/*!***********************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/css/app.css ***!
-  \***********************************************************/
+/*!*****************************************************************!*\
+  !*** multi ./resources/js/bootstrap.js ./resources/css/app.css ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/chrisweir/Development/personal/learning/laracasts/videogames/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /Users/chrisweir/Development/personal/learning/laracasts/videogames/resources/js/bootstrap.js */"./resources/js/bootstrap.js");
 module.exports = __webpack_require__(/*! /Users/chrisweir/Development/personal/learning/laracasts/videogames/resources/css/app.css */"./resources/css/app.css");
 
 
