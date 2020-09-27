@@ -18,3 +18,13 @@
         @endforeach
     @endforelse()
 </div>
+@push('scripts')
+@include('partials._rating', [
+    'event' => 'gameWithRatingAdded'
+])
+{{--    <script>--}}
+{{--        window.livewire.on('gameWithRatingAdded', params => {--}}
+{{--          console.log('testing: ' + params.slug)--}}
+{{--        })--}}
+{{--    </script>--}}
+@endpush
